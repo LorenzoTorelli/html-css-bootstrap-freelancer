@@ -7,28 +7,29 @@
 
 /* nav */
 
-#mc-nav-container a {
-    text-transform: uppercase;
-}
 
 
 #mc-jumbo-container {
     background-color: rgb(26, 188, 156);
-    height: 500px;
+    padding: 50px 0px;
 }
 
 #mc-jumbo-container img {
-    height: 250px;
+    width: 25%;
 }
-#mc-jumbo-container h2, #mc-jumbo-container h4 {
-    text-transform: uppercase;
 
-} 
 .mc-main-container {
     background-color: blue;
-    margin-top: 50px;
+    margin: 50px 0px;
 }
 .mc-main-container .box {
     background-color: red;
-    height: 50px;
+    height: 150px;
+}
+
+
+#mc-about-container {
+    background-color: rgb(26, 188, 156);
+    padding: 20px 0px;
+
 }
