@@ -7,7 +7,9 @@
 
 /* nav */
 
-
+#mc-navbar {
+    background-color: rgb(44, 62, 80);
+}
 
 #mc-jumbo-container {
     background-color: rgb(26, 188, 156);
@@ -27,9 +29,14 @@
     height: 150px;
 }
 
-
 #mc-about-container {
     background-color: rgb(26, 188, 156);
     padding: 20px 0px;
 
+}
+
+#mc-footer {
+    padding: 50px 0px;
+    /* height: 500px; */
+    background-color: rgb(44, 62, 80);
 }

@@ -15,7 +15,7 @@
     <header>
 
         <!-- nav bar -->
-        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <nav id="mc-navbar" class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div id="mc-nav-container" class="container-fluid">
               <a  class="navbar-brand text-uppercase" href="#">start Bootstrap</a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
@@ -82,15 +82,45 @@
                     <div class=" box border col-xs-12 col-md-6"></div>
                     <div class=" box border col-xs-12 col-md-6"></div>
                 </div>
-                <button id="Download-btn" type="button" class="btn btn-lg btn-primary">Download</button> 
+                <button id="mc-download-btn" type="button" class="btn btn-lg btn-primary">Download</button> 
             </div>
         </div>
 
 
+        <div id="mc-contact-me" class="mc-main-container container text-center">
+            <h2 class="text-uppercase">Contact-me</h2>
+
+            <div class="mb-3">
+                <input type="text" class="form-control"  placeholder="Nome">
+            </div>
+            <div class="mb-3">
+                <input type="email" class="form-control"  placeholder="Email">
+            </div>
+            <div class="mb-3">
+                <input type="phone" class="form-control"  placeholder="Phone Number">
+            </div>
+            <div class="form-floating">
+                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2" style="height: 100px"></textarea>
+                <label for="floatingTextarea2">Comments</label>
+              </div>
+              <button id="mc-download-btn" type="button" class="btn btn-lg btn-primary">Send</button> 
+        </div>
+
     </main>
 
     <!-- footer  -->
-    <footer></footer>
+    <footer>
+        <div id="mc-footer">
+            <div class="mc-main-container container text-center">
+                <div class="row gy-2">
+                    <div class=" box border col-xs-12 col-md-4"></div>
+                    <div class=" box border col-xs-12 col-md-4"></div>
+                    <div class=" box border col-xs-12 col-md-4"></div>
+                </div>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+        </div>
+    </footer>
 
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
