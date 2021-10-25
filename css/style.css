@@ -1,0 +1,34 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: white;
+}
+
+/* nav */
+
+#mc-nav-container a {
+    text-transform: uppercase;
+}
+
+
+#mc-jumbo-container {
+    background-color: rgb(26, 188, 156);
+    height: 500px;
+}
+
+#mc-jumbo-container img {
+    height: 250px;
+}
+#mc-jumbo-container h2, #mc-jumbo-container h4 {
+    text-transform: uppercase;
+
+} 
+.mc-main-container {
+    background-color: blue;
+    margin-top: 50px;
+}
+.mc-main-container .box {
+    background-color: red;
+    height: 50px;
+}
