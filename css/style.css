@@ -9,14 +9,8 @@
 #mc-jumbo-container {
     background-color: rgb(26, 188, 156);
     color: white;
-
 }
 
-.icon {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 .line {
     margin: 0px 10px;
     width: 120px;
@@ -31,23 +25,48 @@
 
 .mc-main-container .ic, .mc-main-container .line{
     background-color: black;
-    /* margin: 50px 0px; */
 }
+
 .mc-main-container .box img {
-
     width: 100%;
-
 }
 
 #mc-about-container {
     background-color: rgb(26, 188, 156);
-    /* padding: 20px 0px; */
+}
+
+#mc-about-container .line {
+    background-color: white;
+
+}
+#mc-about-container i {
+    color: white;
+}
+#mc-footer-top {
+    background-color: rgb(58, 84, 109);
+}
+
+#mc-send-btn {
+    background-color: rgb(26, 188, 156);
 
 }
 
-#mc-footer {
-    /* padding: 50px 0px;
-    height: 500px; */
+
+#mc-footer-top .box {
+    color: white;
+}
+
+.o-c {
+    color: rgb(26, 188, 156);
+}
+
+#mc-footer-bottom {
     background-color: rgb(44, 62, 80);
 }
+#mc-footer-bottom h6 {
+    color: white;
+}
 
+#google {
+    color: white;
+}
